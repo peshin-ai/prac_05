@@ -13,7 +13,7 @@ def main():
 
 
     for i in list_text:
-        print("{} : {}".format(i, list_text[i]))
+        print("{:10} : {:>}".format(i, list_text[i]))
 
 
 if __name__ == '__main__':
